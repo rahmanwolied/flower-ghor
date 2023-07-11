@@ -1,0 +1,32 @@
+.featured {
+	text-align: center;
+}
+
+.featured-text {
+	margin-top: 10rem;
+	margin-bottom: 2rem;
+}
+
+.featured-imgs {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 13rem;
+}
+
+.featured-img {
+	border-radius: 18.75rem 18.75rem 0rem 0rem;
+	width: 20rem;
+}
+
+#img-one {
+	background: rgba(167, 33, 98, 0.15);
+}
+
+#img-two {
+	background: rgba(5, 151, 160, 0.15);
+}
+
+#img-three {
+	background: rgba(71, 125, 17, 0.15);
+}
