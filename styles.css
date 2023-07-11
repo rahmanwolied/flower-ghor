@@ -6,10 +6,6 @@
 	font-family: 'Lato', sans-serif;
 }
 
-html {
-	font-size: 70%;
-}
-
 .hero {
 	background-color: rgba(229, 84, 115, 0.1);
 	display: flex;
@@ -172,7 +168,7 @@ html {
 	background-image: url('Flower_Assets/Rectangle9.png');
 	padding: 8rem 18rem;
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
 }
 
 .latest-deals .input-field input {
@@ -222,4 +218,41 @@ footer h1 span {
 
 footer smaller {
 	color: rgba(255, 255, 255, 0.4);
+}
+
+.customers {
+	margin: 11rem 15rem 11rem 15rem;
+}
+
+.circle-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 2rem;
+}
+
+.circle-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.reviews {
+	padding: 0 10rem;
+}
+
+.review {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.review p {
+	text-align: center;
+	color: rgba(39, 39, 39, 0.6);
+	font-size: 1rem;
+	font-weight: 400;
+	margin-top: 1.5rem;
+	width: 20rem;
 }
