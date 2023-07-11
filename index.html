@@ -4,9 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Flower Ghor</title>
-		<link rel="stylesheet" href="css/global.css" />
-		<link rel="stylesheet" href="css/hero.css" />
-		<link rel="stylesheet" href="css/featured.css" />
+		<link rel="stylesheet" href="styles.css" />
+
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Lexend:wght@300;400&display=swap" rel="stylesheet" />
@@ -25,7 +24,7 @@
 						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
 						The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
 					</p>
-					<button>Shop Now</button>
+					<button class="btn-primary">Shop Now</button>
 				</div>
 				<img src="Flower Asset/hero.png" alt="Red Flowers" />
 			</section>
@@ -33,13 +32,13 @@
 			<!-- Featured flowers section -->
 
 			<section class="featured">
-				<div class="featured-text">
+				<div class="section-info">
 					<h2>Our Featured Flowers</h2>
 					<p>
 						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
 					</p>
 				</div>
-				<div class="featured-imgs">
+				<div class="section-imgs">
 					<div class="featured-img-card">
 						<div class="featured-img" id="img-one">
 							<img src="Flower Asset/section2img1.png" alt="pink flowers" />
@@ -80,12 +79,28 @@
 				</div>
 			</section>
 
+			<section class="hot-deal">
+				<div class="deal-info">
+					<h1>Hot Deal! Sale Up To 25% <span>Off</span></h1>
+					<p>
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+					</p>
+					<button class="btn-primary">Sign Up</button>
+				</div>
+				<img src="Flower Asset/hotdeals.png" alt="roses" />
+			</section>
+
 			<!-- Instagram -->
 
 			<section class="instagram">
-				<h2>Instagram</h2>
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-				<div class="instagram-imgs">
+				<div class="section-info">
+					<h2>Instagram</h2>
+					<p>
+						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+					</p>
+				</div>
+
+				<div class="section-imgs">
 					<img src="Flower Asset/Flower 01.png" alt="pink flowers" />
 					<img src="Flower Asset/Rectangle 4.png" alt="white flowers" />
 					<img src="Flower Asset/Rectangle 5.png" alt="flowers in a mug" />
@@ -95,18 +110,23 @@
 
 			<!-- Latest Deals -->
 
-			<section class="lastest-deals">
-				<h2>Get The Latest Deals</h2>
-				<p>$30 coupon for first shopping</p>
-				<input type="text" />
-				<button>Subscribe</button>
+			<section class="latest-deals">
+				<div class="section-info">
+					<h2>Get The Latest Deals</h2>
+					<p>$30 coupon for first shopping</p>
+				</div>
+
+				<div class="input-field">
+					<input type="text" placeholder="Enter your email here..." />
+					<button class="btn-primary">Subscribe</button>
+				</div>
 			</section>
 		</main>
 
 		<footer>
 			<h1><span>Flower</span>Ghor</h1>
 			<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-			<p>@2020-2023, FlowerShop.com. All rights reserved.</p>
+			<smaller>@2020-2023, FlowerShop.com. All rights reserved.</smaller>
 		</footer>
 	</body>
 </html>
