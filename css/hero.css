@@ -1,46 +1,32 @@
 .hero {
-	height: 53.125rem;
 	background-color: rgba(229, 84, 115, 0.1);
 	display: flex;
-	gap: 6rem;
-	padding: 0 15rem;
+	justify-content: space-between;
+	padding: 3rem 15rem 0 15rem;
 	align-items: center;
 }
-
-.hero img {
-	height: 600px;
-	align-self: flex-end;
-}
-
-.hero-heading {
-	width: 44.25rem;
-}
-
 .hero-heading h1 {
 	color: #272727;
-	font-family: Lato;
 	font-size: 5rem;
-	font-style: normal;
 	font-weight: 800;
-	line-height: normal;
 }
 
 .hero-heading p {
 	color: rgba(39, 39, 39, 0.6);
-	font-family: Lato;
-	font-size: 0.9rem;
-	font-style: normal;
+	font-size: 1.125rem;
 	font-weight: 400;
-	line-height: 1.3rem;
-	margin: 1.5rem auto;
+	line-height: 1.875rem;
+	margin: 2rem 0;
+	width: 41rem;
 }
 
 .hero-heading button {
 	border-radius: 0.5rem;
 	background: #e55473;
-	padding: 1rem 2.5rem;
+	padding: 1.25rem 3rem;
 	border: none;
 	color: white;
+	font-size: 1.25rem;
 }
 
 .hero-heading button:hover {
